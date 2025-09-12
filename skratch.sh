@@ -30,6 +30,9 @@ git add . && git commit -m "Auto commit from skratch.sh"
 # Get extension argument, e.g., ".py"
 extension="$1"
 
+# If you just want to commit, exit here after auto commit
+if [[ $extension -eq "commit" ]]; then exit
+
 # Generate random 6-character alphanumeric string
 random_string=$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)
 
