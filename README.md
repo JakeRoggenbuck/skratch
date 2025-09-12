@@ -1,6 +1,6 @@
 # skratch
 
-Create a scratch file in a specific place.
+Create a "skratch" file in a specific place.
 
 ### Why
 
@@ -8,16 +8,34 @@ I often make small files that I want saved in git but don't warrent a whole repo
 
 ### Usage
 
-Make an empty Python file
+##### 1. Make an empty Python file
 
 ```
 sk .py
 ```
 
-Make an empty file
+##### 2. Make an empty file
 
 ```
 sk
+```
+
+##### 3. Commit the current files
+
+```
+sk commit
+```
+
+##### 4. Navigate to skratch directory
+
+```
+sk-goto
+```
+
+This requires adding the following alias:
+
+```sh
+alias skcd='cd ~/Repos/skratch'
 ```
 
 ### Install

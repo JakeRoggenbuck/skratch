@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Usage:
-# `sk .py` this will make a Python scratch file
+# `sk .py` this will make a Python "skratch" file
 #
 # `sk commit` simply commit the current stuff
 #
@@ -43,5 +43,5 @@ random_string=$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)
 # Combine random string with extension
 file="${random_string}${extension}"
 
-# Open the scratch file in editor
+# Open the "skratch" file in editor
 $EDITOR "$file"
