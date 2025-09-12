@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Usage:
-# `scratch .py` this will make a Python scratch file
+# `skratch .py` this will make a Python scratch file
 #
 # Install:
 # `make install`
@@ -25,7 +25,7 @@ else
 fi
 
 # Auto commit anything that might be unsaved from last time
-git add . && git commit -m "Auto commit from scratch.sh"
+git add . && git commit -m "Auto commit from skratch.sh"
 
 # Get extension argument, e.g., ".py"
 extension="$1"

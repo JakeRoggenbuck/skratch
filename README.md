@@ -1,4 +1,4 @@
-# scratch
+# skratch
 
 Create a scratch file in a specific place.
 

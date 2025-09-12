@@ -1,2 +1,3 @@
 install:
-	cp ./scratch.sh ~/.local/bin/scratch
+	cp ./skratch.sh ~/.local/bin/sk
+	cp ./skratch.sh ~/.local/bin/skratch
