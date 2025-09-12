@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Usage:
-# `skratch .py` this will make a Python scratch file
+# `sk .py` this will make a Python scratch file
+#
+# `sk commit` simply commit the current stuff
 #
 # Install:
 # `make install`
