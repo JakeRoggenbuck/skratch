@@ -10,10 +10,10 @@
 set -x
 
 # Make the directory if needed
-mkdir -p ~/Repos/scratch
+mkdir -p ~/Repos/skratch
 
 # Change to the right directory
-cd ~/Repos/scratch || exit 1
+cd ~/Repos/skratch || exit 1
 
 # Check if it's inside git
 if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
