@@ -10,26 +10,26 @@ I often make small files that I want saved in git but don't warrent a whole repo
 
 ##### 1. Make an empty Python file
 
-```
+```sh
 sk .py
 ```
 
 ##### 2. Make an empty file
 
-```
+```sh
 sk
 ```
 
 ##### 3. Commit the current files
 
-```
+```sh
 sk commit
 ```
 
 ##### 4. Navigate to skratch directory
 
-```
-sk-goto
+```sh
+skcd
 ```
 
 This requires adding the following alias:
@@ -38,8 +38,21 @@ This requires adding the following alias:
 alias skcd='cd ~/Repos/skratch'
 ```
 
+##### 5. Named file
+
+```sh
+sk _named_file.py
+```
+
 ### Install
 
 ```sh
 make install
 ```
+
+Then add the alias (if you want `skcd`):
+
+```
+alias skcd='cd ~/Repos/skratch'
+```
+
