@@ -33,7 +33,7 @@ git add . && git commit -m "Auto commit from skratch.sh"
 extension="$1"
 
 # If you just want to commit, exit here after auto commit
-if [[ $extension -eq "commit" ]]; then
+if [[ $extension == "commit" ]]; then
 	exit
 fi
 
